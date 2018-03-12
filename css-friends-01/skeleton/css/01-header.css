@@ -1,1 +1,53 @@
 /* PHASE 1: Header */
+body h1, li {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+body h1 {
+  font-weight: bolder;
+}
+
+header {
+  background-color: #f00;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header li {
+  text-align: center;
+}
+
+.nav-left ul {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.nav-right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+header li {
+  padding: 15px;
+  border-left: 1px solid #fff;
+}
+
+#h1 {
+  border-right: 1px solid #fff;
+  width: 80%;
+}
+
+.left-empty {
+  border-left: 0px;
+  width: 15%;
+}
+
+.right-empty {
+  width: 10%;
+}
